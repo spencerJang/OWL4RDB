@@ -11,7 +11,7 @@ public class Janus {
 	public static void main (String[] args) {
 		Splash splash = new Splash(ImageURIs.SPLASH, ImageURIs.LOGO);
 		splash.setVisible(true);
-		
+		System.out.println("YELLOWORLD");
 		setLookAndFeel();
 		
 		JanusWindow mainWindow = new JanusWindow();
